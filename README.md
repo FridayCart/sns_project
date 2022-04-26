@@ -36,4 +36,4 @@ $ python3 -m pip install -r requirements.txt
 
 - [Medicherla V N S Abhishek Bharadwaj](https://github.com/Abhishek-Bharadwaj1969)
 - [Rama Venkata Abhishek Barla](https://github.com/barlaabhi)
-- Vukka Rithvik](https://github.com/rithvik78)
+- [Vukka Rithvik](https://github.com/rithvik78)
