@@ -1,4 +1,4 @@
-# sns_project
+# SNS Project - Opinion Mining
 
 # Introduction
 
