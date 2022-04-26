@@ -15,10 +15,10 @@ app.config['SECRET_KEY'] = 'thisisasecret'
 
 @app.route('/', methods=['POST'])
 def show_details():
-    api_key= '5zG30egBIdxMS0B7zCMY7pK7e'
-    api_secret_key= 'o40DnHQfukGSuGCOMQKIKIQ18g57ANHfUiK1jMECcCFiFay1Ad'
-    access_token= '1512409846729289737-BpNZaHb28npOJO6bMfjGvawuxPwxbE'
-    access_secret_token= 'QhQjjxHuJgnN5Dh8rEuP3KWN9ag3oMdeAQg6lJS3P5HQy'
+    api_key= ''
+    api_secret_key= ''
+    access_token= ''
+    access_secret_token= ''
     a1=request.form.get('search')
     a=twitter.Api(consumer_key=api_key,consumer_secret=api_secret_key,access_token_key=access_token,access_token_secret=access_secret_token)
     '''b=a.VerifyCredentials()
@@ -57,10 +57,10 @@ def show_details_get():
 
 @app.route('/show')
 def show_details_get1():
-    api_key= '5zG30egBIdxMS0B7zCMY7pK7e'
-    api_secret_key= 'o40DnHQfukGSuGCOMQKIKIQ18g57ANHfUiK1jMECcCFiFay1Ad'
-    access_token= '1512409846729289737-BpNZaHb28npOJO6bMfjGvawuxPwxbE'
-    access_secret_token= 'QhQjjxHuJgnN5Dh8rEuP3KWN9ag3oMdeAQg6lJS3P5HQy'
+    api_key= ''
+    api_secret_key= ''
+    access_token= ''
+    access_secret_token= ''
     a1=request.form.get('search')
     a=twitter.Api(consumer_key=api_key,consumer_secret=api_secret_key,access_token_key=access_token,access_token_secret=access_secret_token)
     brr = a.GetFollowers()
