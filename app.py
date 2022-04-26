@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify, make_response, Response
 import twitter
-import jwt
+
 import datetime
 import base64
 import requests
