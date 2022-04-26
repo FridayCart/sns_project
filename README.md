@@ -11,7 +11,7 @@ Opinion Mining for Social Networking Site is a web application. Here the user wi
 
 [project_link](https://twitterara.azurewebsites.net)
 
-We can specify the Target on which we want to retrieve information at [Link](https://twitterara.azurewebsites.net) or we can retrieve information of one's followers at [Link](https://twitterara.azurewebsites.net/show)
+We can specify the Target on which we want to retrieve information at [Link](https://twitterara.azurewebsites.net/target) or we can retrieve information of one's followers at [Link](https://twitterara.azurewebsites.net/self)
 
 # Installation 
 
